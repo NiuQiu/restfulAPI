@@ -1,0 +1,8 @@
+insert into orders(customer, drink) values('Peter', 'coffee');
+insert into orders(customer, drink) values('Andrew', 'water');
+insert into orders(customer, drink) values('Bill', 'tea');
+insert into orders(customer, drink) values('Avery', 'milk');
+
+
+
+insert into contacts(firstName, lastName, email, phoneNumber, notes) values('Peter', 'Mckay', 'pmck@absolute.com', 6045197854, '');

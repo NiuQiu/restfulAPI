@@ -1,0 +1,18 @@
+drop table if exists orders;
+
+create table orders (
+	id serial primary key not null,
+	customer varchar(40) not null,
+	drink varchar(30) not null
+);
+
+-- create contact table
+DROP TABLE if EXISTS contacts;
+CREATE TABLE contacts(
+	cid SERIAL PRIMARY KEY,
+	firstName varchar(100) NOT NULL,
+	lastName varchar(100) NOT NULL,
+	email varchar(254),
+	phoneNumber bigint,
+	notes varchar(1000)
+);

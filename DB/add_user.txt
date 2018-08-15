@@ -1,0 +1,4 @@
+begin;
+create user semi with password 'admin';
+grant all privileges on database cmpt470 to semi;
+commit;
